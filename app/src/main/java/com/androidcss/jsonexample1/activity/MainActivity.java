@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.activity;
+package com.androidcss.jsonexample1.activity;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.androidcss.jsonexample.R;
+import com.androidcss.jsonexample1.R;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;

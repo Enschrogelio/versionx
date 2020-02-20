@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.model;
+package com.androidcss.jsonexample1.model;
 
 /**
  * Created by Ravi on 29/07/15.

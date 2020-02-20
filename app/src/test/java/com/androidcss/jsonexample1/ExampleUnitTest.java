@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample;
+package com.androidcss.jsonexample1;
 
 import org.junit.Test;
 

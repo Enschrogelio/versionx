@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androidcss.jsonexample" >
+    package="com.androidcss.jsonexample1" >
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -11,7 +11,7 @@
         android:label="@string/app_name">
 
         <activity
-            android:name=".SplashActivity.SplashScreen"
+            android:name="com.androidcss.jsonexample1.SplashActivity.SplashScreen"
             android:theme="@style/MyMaterialTheme.NoActionBar"
             android:label="@string/app_name" >
             <intent-filter>
@@ -20,20 +20,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.SecondActivity"
+        <activity android:name="com.androidcss.jsonexample1.activity.SecondActivity"
             android:theme="@style/MyMaterialTheme"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"/>
-        <activity android:name=".activity.LoginActivity"
+        <activity android:name="com.androidcss.jsonexample1.activity.LoginActivity"
             android:theme="@style/MyMaterialTheme"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"/>
-        <activity android:name=".activity.MainActivity"
+        <activity android:name="com.androidcss.jsonexample1.activity.MainActivity"
             android:theme="@style/MyMaterialTheme"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"/>
-        <activity android:name=".activity.DetailsActivity"
-            android:theme="@style/MyMaterialTheme"
+        <activity android:name="com.androidcss.jsonexample1.activity.DetailsActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"/>
     </application>

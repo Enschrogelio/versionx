@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.adapter;
+package com.androidcss.jsonexample1.adapter;
 
 /**
  * Created by Ravi on 29/07/15.
@@ -16,8 +16,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.Collections;
 import java.util.List;
 
-import com.androidcss.jsonexample.R;
-import com.androidcss.jsonexample.model.NavDrawerItem;
+import com.androidcss.jsonexample1.R;
+import com.androidcss.jsonexample1.model.NavDrawerItem;
 
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.MyViewHolder> {
     List<NavDrawerItem> data = Collections.emptyList();

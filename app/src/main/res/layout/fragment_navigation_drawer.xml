@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background_drawer">
+    android:background="@drawable/gradient_background">
 
 
     <RelativeLayout
@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:layout_alignParentTop="true"
-        android:background="@drawable/desert">
+        android:background="@drawable/pas">
 
         <ImageView
             android:layout_width="70dp"
@@ -24,14 +24,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="104dp"
+            android:layout_marginTop="119dp"
             android:gravity="center_horizontal"
             android:text="@string/title_home"
-            android:textColor="@color/windowBackground"
+            android:textColor="@color/colorAccent"
             android:textSize="15dp"
             android:textStyle="bold" />
-
-
 
 
     </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.activity;
+package com.androidcss.jsonexample1.activity;
 
 /**
  * Created by Ravi on 29/07/15.
@@ -24,9 +24,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.androidcss.jsonexample.R;
-import com.androidcss.jsonexample.adapter.NavigationDrawerAdapter;
-import com.androidcss.jsonexample.model.NavDrawerItem;
+import com.androidcss.jsonexample1.R;
+import com.androidcss.jsonexample1.adapter.NavigationDrawerAdapter;
+import com.androidcss.jsonexample1.model.NavDrawerItem;
 
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 

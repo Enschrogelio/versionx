@@ -1,17 +1,13 @@
-package com.androidcss.jsonexample.SplashActivity;
+package com.androidcss.jsonexample1.SplashActivity;
 
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.TextView;
 
-import com.androidcss.jsonexample.R;
-import com.androidcss.jsonexample.activity.LoginActivity;
-import com.androidcss.jsonexample.activity.MainActivity;
+import com.androidcss.jsonexample1.R;
+import com.androidcss.jsonexample1.activity.LoginActivity;
 
 
 public class SplashScreen extends Activity {

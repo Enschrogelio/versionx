@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.activity;
+package com.androidcss.jsonexample1.activity;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.androidcss.jsonexample.R;
+import com.androidcss.jsonexample1.R;
 import com.bumptech.glide.Glide;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;

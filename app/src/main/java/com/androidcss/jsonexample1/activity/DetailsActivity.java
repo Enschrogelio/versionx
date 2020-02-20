@@ -1,18 +1,21 @@
-package com.androidcss.jsonexample.activity;
+package com.androidcss.jsonexample1.activity;
 
-import com.androidcss.jsonexample.R;
+import com.androidcss.jsonexample1.R;
 import com.bumptech.glide.Glide;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 
-import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -21,6 +24,7 @@ public class DetailsActivity extends AppCompatActivity {
     private static final String TAG = "GalleryActivity";
     private Context context;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,10 +59,27 @@ public class DetailsActivity extends AppCompatActivity {
 */
 
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setBackgroundDrawable(new ColorDrawable(getColor(R.color.colorAccent)));
+        actionBar.setTitle("Postre");
 
 
 
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
 
+        return super.onOptionsItemSelected(item);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
     }
 }
 

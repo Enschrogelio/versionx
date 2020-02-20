@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.adapter;
+package com.androidcss.jsonexample1.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,10 +14,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.Collections;
 import java.util.List;
 
-import com.androidcss.jsonexample.activity.DetailsActivity;
+import com.androidcss.jsonexample1.activity.DetailsActivity;
 import com.bumptech.glide.Glide;
-import com.androidcss.jsonexample.R;
-import com.androidcss.jsonexample.model.DataPostre;
+import com.androidcss.jsonexample1.R;
+import com.androidcss.jsonexample1.model.DataPostre;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;

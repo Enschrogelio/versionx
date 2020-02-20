@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.activity;
+package com.androidcss.jsonexample1.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.androidcss.jsonexample.R;
+import com.androidcss.jsonexample1.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

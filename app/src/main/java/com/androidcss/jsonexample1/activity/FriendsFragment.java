@@ -1,4 +1,4 @@
-package com.androidcss.jsonexample.activity;
+package com.androidcss.jsonexample1.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -10,25 +10,17 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.androidcss.jsonexample.R;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.androidcss.jsonexample1.R;
 
 /**
  * Created by Ravi on 29/07/15.
  */
-public class GameFragment extends Fragment {
+public class FriendsFragment extends Fragment {
 
-
-    TextView email;
-
-    GoogleSignInClient mGoogleSignInClient;
-
-
-    public GameFragment() {
+    public FriendsFragment() {
         // Required empty public constructor
     }
 
@@ -42,31 +34,14 @@ public class GameFragment extends Fragment {
             new PostresFragment();
         }
 
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_game, container, false);
-
-/*
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail()
-                .build();
-
-        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
-
-        email = getView().findViewById(R.id.email);
-
-        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
-        if (acct != null) {
-            String personEmail = acct.getEmail();
+        View rootView = inflater.inflate(R.layout.fragment_friends, container, false);
 
 
-            email.setText(personEmail);
-        }
-*/
         // Inflate the layout for this fragment
         return rootView;
     }
@@ -103,7 +78,6 @@ public class GameFragment extends Fragment {
 
         return builder;
     }
-
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
